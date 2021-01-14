@@ -1,0 +1,98 @@
+
+
+body{
+    font-family:'Roboto Mono', monospace;
+  }
+.header{
+    display:flex;
+    align-items: center;
+}
+.header > div{
+    flex-basis: 50%;
+}
+  .header img{
+    width:40%;
+    border-radius: 50%;
+    padding-bottom: 2%;
+    padding-right: -25%;
+  }
+  .headertext h1{
+    font-family:'Chelsea Market', cursive;
+    font-size:3rem;
+    text-align: center;
+  }
+  .headertext p{
+      text-align:center;
+          
+  }
+  .about{
+    background:#DDB9A3;
+    color:white;
+    padding:0.1% 2%;
+    width:85%;
+    margin:0 auto;
+}
+.body p{
+    width:25%;
+    margin:auto;
+    font-size:small;
+    padding:3%;
+}
+  .body{
+      text-align:center;
+      padding:2%;
+  }
+
+  nav{
+      text-align:center;
+  }
+  nav a{
+    display:inline-block;
+    text-decoration:none;
+    text-align:center;
+    box-sizing:border-box;
+    margin:5%;
+    width: 8em;
+    padding:10px;
+    border-radius:15px;
+    
+  }
+  .one{
+    color:white;
+    background:#FF764E;
+  }
+  .two{
+      color:white;
+      background:#5ED3EB;
+  }
+  .three{
+      color:white;
+      background:#FFCD69;
+  }
+  .body img{
+    width:10%;
+    display:inline-block;
+    text-align:center;
+  }
+  .foothead {
+      display:block;
+      width:100%;
+      height:400px;
+      
+  }
+  .bottom nav{
+      background-color:#F9E7DC; 
+  }
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap');
